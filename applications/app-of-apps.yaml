@@ -13,9 +13,9 @@ spec:
     helm:
       parameters:
       - name: "argocd.giropopsSenhas.enabled"
-        value: "false"
-      - name: "argocd.randomLogger.enabled"
         value: "true"
+      - name: "argocd.randomLogger.enabled"
+        value: "false"
     repoURL: https://github.com/ludsilva/descomplicando-gitops-no-kubernetes-argocd.git
     targetRevision: feat/day2
   syncPolicy:
